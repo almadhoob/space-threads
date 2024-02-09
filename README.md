@@ -7,14 +7,6 @@
     Unveiling the Universe, One Story at a Time.
   </p>
 
-
-<h4>
-    <a href="https://st.ihaji.pro/">Visit Website</a>
-  <span> · </span>
-    <a href="https://trello.com/b/RFAVvXwQ/spacethreads/">Trello Board</a>
-  <span> · </span>
-    <a href="https://git.generalassemb.ly/astronauts-team/space-threads/issues/">Report Bugs</a>
-  </h4>
 </div>
 
 <br />
@@ -24,15 +16,13 @@
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Data Modeling](#star2-data-modeling)
+  * [Data Model](#star2-data-modeling)
   * [User Stories](#star2-user-stories)
   * [Tech Stack](#star2-tech-stack)
   * [Features](#star2-features)
 - [Getting Started](#star2-getting-started)
   * [Prerequisites](#star2-prerequisites)
-  * [Environment Variables](#star2-environment-variables)
   * [Installation](#star2-installation)
-  * [Run Locally](#star2-run-locally)
   * [Deployment](#star2-deployment)
 - [Usage](#star2-usage)
 - [Roadmap](#star2-roadmap)
@@ -53,7 +43,7 @@
 <br />
 
 <p>
-Welcome to the universe of creativity and collaboration – SpaceThreads! Conceived by a talented team comprising Ali Haji (as a spaceship captain) along with Ahmed Almadhoob, Hamad Alhibshi, and Qasim Alkuwaiti for their final capstone at General Assembly, it is a web application that reimagines storytelling.
+Welcome to the universe of creativity and collaboration – SpaceThreads! Conceived by a talented team comprising Ali Haji (the spaceship captain) along with Ahmed Almadhoob, Hamad Alhibshi, and Qasim Alkuwaiti for their final capstone at General Assembly, it is a web application that reimagines storytelling.
 
 Inspired by the boundless expanse of infinite space and the concept of parallel universes, SpaceThreads is a dynamic platform that empowers individuals to craft their own unique stories. With the robust Django backend and the engaging React frontend, this project brings together the best of web development.
 
@@ -67,12 +57,12 @@ Join us in this cosmic journey, where storytelling has no limits. Explore SpaceT
 
 
 <!-- Data Modeling -->
-### :star2: Data Modeling
+### :star2: Data Model
 
-<p>Here you can find the Entity Relationship Diagram (ERD):</p>
+<p>The Entity Relationship Diagram (ERD):</p>
 
 <div align="center"> 
-  <img src="assets/models.png" alt="The ERD of SpaceThreads" width="60%" height="auto" />
+  <img src="assets/models.png" alt="The ERD of SpaceThreads" width="90%" height="auto" />
 </div>
 
 
@@ -84,7 +74,7 @@ Join us in this cosmic journey, where storytelling has no limits. Explore SpaceT
 <ul>
   <li>As an Aspiring Writer: I want to write and publish stories: To share my creativity with the community.</li>
   <li>As a Participating Writer: I want to collaborate with others: To co-author stories and learn from fellows.</li>
-  <li>As a Learning Writer: I want to receive reviews and comments: To improve my skills and connect with readers.</li>
+  <li>As a Learning Writer: I want to receive reviews and comments: To improve myself and connect with readers.</li>
   <li>As a Reader and Enthusiast: I want to browse a diverse library of stories: So I can discover new authors.</li>
   <li>As a Critical Reader: I want to leave comments and feedback: To engage with authors and fellow readers.</li>
   <li>As an Administrator: I want to manage user accounts: To ensure a safe and enjoyable platform experience.</li>
@@ -123,7 +113,7 @@ Join us in this cosmic journey, where storytelling has no limits. Explore SpaceT
 <details>
 <summary>DevOps, Databases, etc.</summary>
   <ul>
-    <li><a href="https://www.github.com/">GitHub Enterprise CI/CD</a></li>
+    <li><a href="https://www.github.com/">GitHub Enterprise</a></li>
     <li><a href="https://render.com/">Render Cloud Hosting</a></li>
     <li><a href="https://www.docker.com/">Docker Containerization</a></li>
     <li><a href="https://nginx.org/en/">Nginx Web Server</a></li>
@@ -140,51 +130,33 @@ Join us in this cosmic journey, where storytelling has no limits. Explore SpaceT
 <!-- Prerequisites -->
 ### :star2: Prerequisites
 
-This project uses NPM as package manager:
+This project uses Node.js (with NPM package manager) and Django (with PIP package manager).
 
-```bash
- npm install --global npm
-```
-
-<!-- Env Variables -->
-### :star2: Environment Variables
-
-To run this project, you will need to add the following environment variables to your '.env' file: `SECRET_KEY`, `DJANGO_ALLOWED_HOSTS`, `DB_ENGINE`, `DB_DATABASE`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`.
+To run this project, you have to add the following environment variables to your '.env' file: `SECRET_KEY`, `DJANGO_ALLOWED_HOSTS`, `DB_ENGINE`, `DB_DATABASE`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`.
 
 
 <!-- Installation -->
 ### :star2: Installation
 
-Install it with NPM as the following:
+Clone the project:
 
 ```bash
-  npm install
-  cd space-threads
+  git clone git@github.com:amstalks/space-threads.git
 ```
 
-
-<!-- Run Locally -->
-### :star2: Run Locally
-
-Clone the project
-
-```bash
-  git clone git://git.generalassemb.ly/astronauts-team/space-threads.git
-```
-
-Go to the project directory
+Go to the project directory:
 
 ```bash
   cd space-threads
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
   npm install
 ```
 
-Start the server
+Start the server:
 
 ```bash
   npm run start
@@ -204,20 +176,20 @@ To deploy this project run:
 <!-- Roadmap -->
 ## :star2: Roadmap
 
-* [ ] Frontend Dashboard
 * [ ] Deployment CI/CD
+* [ ] Frontend Dashboard
 
 
 <!-- Contributing -->
 ## :star2: Contributing
 
-Contributions are always welcome. [Click here](https://git.generalassemb.ly/astronauts-team/space-threads/issues/) to request a feature or report a bug.
+Contributions are always welcome. [Click here](https://github.com/amstalks/space-threads/issues/) to request a feature or report a bug.
 
 
 <!-- License -->
 ## :warning: License
 
-Distributed under the MIT License. [Click here](LICENSE.md) for more information.
+Distributed under the MIT License. [Click here](LICENSE) for more information.
 
 
 <!-- Acknowledgments -->
