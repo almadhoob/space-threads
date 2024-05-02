@@ -141,7 +141,7 @@ To run this project, you have to add the following environment variables to your
 Clone the project:
 
 ```bash
-  git clone git@github.com:amstalks/space-threads.git
+  git clone git@github.com:almadhoob/space-threads.git
 ```
 
 Go to the project directory:
@@ -183,7 +183,7 @@ To deploy this project run:
 <!-- Contributing -->
 ## :star2: Contributing
 
-Contributions are always welcome. [Click here](https://github.com/amstalks/space-threads/issues/) to request a feature or report a bug.
+Contributions are always welcome. [Click here](https://github.com/almadhoob/space-threads/issues/) to request a feature or report a bug.
 
 
 <!-- License -->
